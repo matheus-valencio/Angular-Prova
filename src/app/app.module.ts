@@ -17,7 +17,7 @@ import { MatheusDisciplinasServiceService } from './matheus-disciplinas-service.
     RouterModule.forRoot([
       { path: '', component: MatheusComponentComponent },
       { path: 'lista', component: MatheusListaComponentComponent },
-      { path: 'lista/:index', component: MatheusComponentComponent },
+      { path: 'lista/:index', component: MatheusDetalhesComponentComponent },
     ]),
   ],
   declarations: [
